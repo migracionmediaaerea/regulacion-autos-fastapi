@@ -1,0 +1,36 @@
+    "movimiento": 0,                             	// FIJO                                                                                     (Campo 1)
+    "claveInstitucion":"423",                     // FIJO                                                                                     (Campo 2)
+    "fuenteInformacion":"100-998",                // Lo recibimos a través del web service                                                    (Campo 3)
+    "numeroImportacion":"1-9999999"              	// GENERADO POR NOSOTROS                                                                    (Campo 4)
+    "patente":"9999",                    	        // FIJO                                                                                     (Campo 5)
+    "fechaDesaduanamiento":"20220312"          	  // GENERADO POR NOSOTROS                                                                    (Campo 6)
+    "marca":"30 caracteres",                      // Este a veces no va a llegar, así que habrá que pedirlo en nuestro front en esos casos    (Campo 7)
+    "modelo":"30 caracteres",                     // Este a veces no va a llegar, así que habrá que pedirlo en nuestro front en esos casos    (Campo 8)
+    "anio":"1999",                                // Este a veces no va a llegar, así que habrá que pedirlo en nuestro front en esos casos    (Campo 9)
+    "color":"rojo"                       	        // VIENE DE NUESTRO FRONT                                                                   (Campo 10)
+    "motor":"V8"                         	        // VIENE DE NUESTRO FRONT                                                                   (Campo 11)
+    "vin": "12345678901234567",                   // Lo recibimos a través del web service                                                    (Campo 12)
+											                            // NO APLICA EL NRPV, VA VACÍO DE MOMENTO                                                   (Campo 13)
+    "folioInscripcion": "12345678",               // VIENE DE NUESTRO FRONT                                                                   (Campo 14)
+    "idConstancia": "123456789012345678901234",   // VIENE DE NUESTRO FRONT                                                                   (Campo 15)
+    "curp": "TESR909090HSRRRL08",                 // Lo recibimos a través del web service                                                    (Campo 16)
+    "rfc": "TESR909090XXX",              	        // NOSOTROS TRUNCAMOS EL CURP                                                               (Campo 17)
+    "nombre": "Jose Albert",                      // Lo recibimos a través del web service                                                    (Campo 18)
+    "primerApellido": "Trej",                     // Lo recibimos a través del web service                                                    (Campo 19)
+    "segundoApellido": "Serran",                  // Lo recibimos a través del web service, PERO PUEDE SER NULO                               (Campo 20)
+    "claveEntidad_id" : "1",                         // VIENE DE NUESTRO FRONT                                                                   (Campo 21)
+    "municipio_id" : "1",                            // VIENE DE NUESTRO FRONT                                                                   (Campo 22)
+    "calle": "calle",                             // VIENE DE NUESTRO FRONT                                                                   (Campo 23)
+    "numeroExterior": "59",                       // VIENE DE NUESTRO FRONT                                                                   (Campo 24)
+    "numeroInterior": "A",                        // VIENE DE NUESTRO FRONT                                                                   (Campo 25)
+    "colonia": "colonia",                         // VIENE DE NUESTRO FRONT                                                                   (Campo 26)
+    "codigoPostal": "85000",                      // VIENE DE NUESTRO FRONT                                                                   (Campo 27)
+    "clavePedimento": "PR",                       // FIJO                                                                                     (Campo 28)
+
+    // Anexos
+    "anexoIdentificacion": "base64",              // VIENE DE NUESTRO FRONT
+    "anexo2": "base64",                           // VIENE DE NUESTRO FRONT
+    "anexo3": "base64",                           // VIENE DE NUESTRO FRONT
+    "anexo4": "base64",                           // VIENE DE NUESTRO FRONT
+    "anexo5": "base64",                           // VIENE DE NUESTRO FRONT
+    "anexoZip": "base64"                          // VIENE DE NUESTRO FRONT
